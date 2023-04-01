@@ -1,6 +1,6 @@
 _G.Prediction =  (  .18  )
 
-_G.FOV =  (  99  )
+_G.FOV =  (  21  )
 
 _G.AimKey =  (  "="  )
 
@@ -16,7 +16,7 @@ hookmetamethod = hookmetamethod
 Drawing = Drawing
 
 local FOV_CIRCLE = Drawing.new("Circle")
-FOV_CIRCLE.Visible = false
+FOV_CIRCLE.Visible = true
 FOV_CIRCLE.Filled = false
 FOV_CIRCLE.Thickness = 1
 FOV_CIRCLE.Transparency = 1
